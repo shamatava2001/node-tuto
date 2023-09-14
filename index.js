@@ -1,5 +1,5 @@
-const add = require('./iife');
-console.log(__filename);
+// const add = require('./iife');
+// console.log(__filename);
 
 // (function () {
 //     const movie = 'the nun';
@@ -15,3 +15,10 @@ console.log(__filename);
 
 // const sum = add(1, 2);
 // console.log(sum);
+
+const superHero = require('./test');
+superHero.logName();
+superHero.setName('Hulk');
+
+const newSuperHero = require('./test');
+newSuperHero.logName();
