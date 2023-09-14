@@ -1,6 +1,16 @@
-const add = require('./add');
+// const add = require('./add');
 
-console.log('hello from index.js');
+(function () {
+    const movie = 'the nun';
+    console.log(movie);
+})();
 
-const sum = add(1, 2);
-console.log(sum);
+(function () {
+    const movie = 'the conjuring';
+    console.log(movie);
+})();
+
+// console.log('hello from index.js');
+
+// const sum = add(1, 2);
+// console.log(sum);
