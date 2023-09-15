@@ -16,9 +16,14 @@
 // const sum = add(1, 2);
 // console.log(sum);
 
-const superHero = require('./test');
-superHero.logName();
-superHero.setName('Hulk');
+// Module Caching
+    // const superHero = require('./test');
+    // superHero.logName();
+    // superHero.setName('Hulk');
 
-const newSuperHero = require('./test');
-newSuperHero.logName();
+    // const newSuperHero = require('./test');
+    // newSuperHero.logName();
+
+// Importing JSON
+const data = require('./data.json'); 
+console.log(data.name);
